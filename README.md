@@ -9,6 +9,16 @@
 [![npm](https://img.shields.io/npm/v/omniroute?color=cb3837&logo=npm)](https://www.npmjs.com/package/omniroute)
 [![MCP Compatible](https://img.shields.io/badge/MCP-110%20Tools-blueviolet)](https://modelcontextprotocol.io)
 
+<p align="center">
+  <a href="https://render.com/deploy?repo=https://github.com/Ayushnot41/omniroute-cloud-gateway">
+    <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" height="32" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://vercel.com/new/clone?repository-url=https://github.com/Ayushnot41/omniroute-cloud-gateway">
+    <img src="https://vercel.com/button" alt="Deploy with Vercel" height="32" />
+  </a>
+</p>
+
 </div>
 
 ---
@@ -79,11 +89,12 @@ Open [http://localhost:20128](http://localhost:20128) (Default password: `CHANGE
 docker compose up -d
 ```
 
-### 3. Deploy Live (Open-Source OpenRouter)
-See [tunnel-setup.md](./tunnel-setup.md) for 1-command public HTTPS deployment via Cloudflare Tunnels:
-```bash
-cloudflared tunnel --url http://localhost:20128
-```
+### 3. Deploy Live to the Web (Render, Vercel, Cloudflare)
+For full 24/7 cloud hosting or exposing your local instance publicly:
+- **[Read the Complete Deployment Guide (DEPLOYMENT.md)](./DEPLOYMENT.md)**
+- **Render (Recommended)**: 1-Click Docker deploy with persistent SQLite disk and unlimited token streaming.
+- **Vercel**: Web deployment via `vercel.json`.
+- **Cloudflare Tunnel**: Expose your local gateway to a public HTTPS URL with `cloudflared tunnel --url http://localhost:20128`.
 
 ---
 

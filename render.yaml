@@ -1,0 +1,18 @@
+﻿services:
+  - type: web
+    name: omniroute-cloud-gateway
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: free
+    region: oregon
+    disk:
+      name: omniroute-storage
+      mountPath: /app/data
+      sizeGB: 1
+    envVars:
+      - key: PORT
+        value: 20128
+      - key: REQUIRE_API_KEY
+        value: "false"
+      - key: NODE_ENV
+        value: production
