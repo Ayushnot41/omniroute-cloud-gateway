@@ -1,0 +1,31 @@
+{
+  "name": "omniroute-gateway",
+  "version": "3.8.50",
+  "description": "Production-Ready Self-Hosted AI Gateway & OpenRouter Alternative (352+ Providers, 19 Routing Strategies, RTK+Caveman Compression, Antigravity OAuth & MCP Server)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "omniroute serve",
+    "serve": "omniroute serve --log",
+    "mcp": "omniroute --mcp",
+    "tunnel:pinggy": "ssh -p 443 -R0:localhost:20128 a.pinggy.io",
+    "tunnel:cloudflare": "cloudflared tunnel --url http://localhost:20128",
+    "test:health": "node scripts/test-health.mjs",
+    "reset-password": "omniroute-reset-password"
+  },
+  "keywords": [
+    "omniroute",
+    "ai-gateway",
+    "openrouter-alternative",
+    "llm-router",
+    "antigravity",
+    "mcp-server",
+    "token-compression",
+    "free-llm"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "omniroute": "^3.8.50"
+  }
+}

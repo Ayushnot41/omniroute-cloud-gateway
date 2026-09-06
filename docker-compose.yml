@@ -1,0 +1,18 @@
+services:
+  omniroute:
+    image: diegosouzapw/omniroute:latest
+    container_name: omniroute-gateway
+    restart: unless-stopped
+    ports:
+      - "20128:20128"
+    environment:
+      - PORT=20128
+      - HOST=0.0.0.0
+      - STORAGE_ENCRYPTION_KEY=${STORAGE_ENCRYPTION_KEY}
+      - INITIAL_PASSWORD=${INITIAL_PASSWORD:-CHANGEME}
+      - REQUIRE_API_KEY=${REQUIRE_API_KEY:-false}
+    volumes:
+      - omniroute_data:/root/.omniroute
+
+volumes:
+  omniroute_data:
