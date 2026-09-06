@@ -105,6 +105,35 @@ Access the rich Next.js dashboard at **`https://rec-profiles-bargains-seattle.tr
 
 ---
 
+
+---
+
+## 🛠️ Specialized Full-Stack, Backend, Database & Frontend Suites
+
+OmniRoute features dedicated multi-model heavy cascades optimized specifically for targeted software engineering domains:
+
+### 🌐 1. Full-Stack Heavy Suites (End-to-End Architecture & Integrations)
+- 	era-5.6-fullstack: Ultra-heavy multi-model pipeline (o3-mini + claude-3-7-sonnet + deepseek-r1 + gpt-4o)
+- opus-5-fullstack: Anthropic-led full-stack cascade (claude-3-7-sonnet + claude-3-5-sonnet + o3-mini)
+- gpt-5.6-fullstack: OpenAI-led architectural synthesis (o3-mini + claude-3-7-sonnet + gpt-4o)
+- gemini-3.8-fullstack: Google multimodal massive-context pipeline (gemini-2.0-flash-thinking + gemini-2.5-flash + claude-3-7-sonnet)
+- groq-heavy-fullstack: Wafer-scale high-throughput full-stack engine (llama-3.3-70b + deepseek-r1 + llama-3.1-70b)
+
+### 🗄️ 2. Backend & Database Heavy Suites (SQL, Schemas, High-Concurrency APIs)
+- sol-5.6-database: High-precision reasoning cascade (o1 + o3-mini + deepseek-r1)
+- opus-5-database: Deep logical query planner (claude-3-7-sonnet + o1 + o3-mini)
+- gemini-3.5-database: Google massive relational context optimizer (gemini-flash-thinking + gemini-pro + o3-mini)
+- deepseek-r1-database: Math & algorithmic database engine (deepseek-r1 + o1 + o3-mini)
+- gpt-5.6-backend: Enterprise distributed systems & microservices backend pipeline
+- opus-5-backend: System-level Rust/Go/Node backend architecture engine
+
+### 🎨 3. Frontend Heavy Suites (Next.js, React, Tailwind, UI/UX Canvas)
+- luna-5.6-frontend: High-aesthetic UI synthesizer (claude-3-7-sonnet + gpt-4o + gemini-2.5-flash)
+- sonnet-5-frontend: Component & responsive motion specialist (claude-3-7-sonnet + claude-3-5-sonnet + gpt-4o)
+- gemini-3.6-frontend: Visual and asset-integrated frontend pipeline (gemini-2.5-flash + claude-3-7-sonnet + gpt-4o)
+
+---
+
 ## 🤖 Coding Agents & Downstream CLIs
 
 Connect any coding agent or IDE with one command:
